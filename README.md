@@ -11,15 +11,19 @@ Informações úteis:
 7. DeepLearning: mask.v1.pt
 
 Resultados:
+
 <img width="1288" height="632" alt="image" src="https://github.com/user-attachments/assets/c65ad36b-ab2f-42b3-8577-cecab7167e07" />
 
 Matrix de confusão:
+
 <img width="859" height="631" alt="image" src="https://github.com/user-attachments/assets/96cfeb3a-6e9e-47b7-9440-715c0e1d1f34" />
 
 Teste de Detecção:
+
 <img width="1276" height="337" alt="image" src="https://github.com/user-attachments/assets/5a7d977f-61d7-46b6-9d32-824fbd5625ed" />
 
 Conclusões desta fase:
+
 O modelo tem um bom desempenho para as classes with_mask e without_mask, mas precisa de melhorias para:
 
 mask_weared_incorrect (acurácia de apenas 15%).
