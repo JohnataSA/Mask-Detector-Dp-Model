@@ -9,6 +9,7 @@ Informações úteis:
 5. Arquivo para realizar o treinamento: train.v8.py
 6. Arquivo para realizar os testes de detecção: teste_dp.py
 7. DeepLearning: mask.v1.pt
+8. Final-DeepLearning: mask.v2.pt
 
 Resultados do primeiro Treinamento (30 Epochs):
 
@@ -34,7 +35,12 @@ Aumentar o dataset para as classes com baixa acurácia.
 Revisar as imagens de fundo para evitar falsos positivos.
 Ajustar o threshold de detecção para reduzir confusões.
 
+#######################################################
+#                   AFTER FINE-TUNING                 #
+#######################################################
+
 Resultados do Segundo Treinamento, Fine Tuning (40 Epochs):
+
 <img width="1289" height="641" alt="image" src="https://github.com/user-attachments/assets/22c629a0-fdc1-4579-a9f4-1018c7a8aa73" />
 
 Matriz de confusão 2:
