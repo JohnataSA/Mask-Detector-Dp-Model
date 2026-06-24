@@ -9,3 +9,9 @@ names:
   0: with_mask
   1: without_mask
   2: mask_weared_incorrect
+
+# Número de classes
+nc: 3
+
+# Peso das classes (para balancear o treinamento)
+class_weights: [1.0, 1.0, 3.0]  # Maior peso para mask_weared_incorrect 

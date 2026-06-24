@@ -2,10 +2,10 @@ from ultralytics import YOLO
 import cv2
 
 # Carrega o modelo pré-treinado YOLOv8 (pode ser 'yolov8n.pt' para mais leve)
-model = YOLO("mask_v1.pt")
+model = YOLO("mask.v2.pt")
 
 # Abre o vídeo (substitua pelo caminho do seu vídeo)
-#video_path = "cap.mp4"
+#video_path = "cap2.mp4"
 #cap = cv2.VideoCapture(video_path)
 cap = cv2.VideoCapture(0)
 
@@ -14,7 +14,7 @@ while cap.isOpened():
     if not ret:
         break
 
-    # Faz a detecção
+    # Faz a detecçãod
     results = model(frame)
 
     # Desenha as detecções no frame
@@ -29,7 +29,9 @@ while cap.isOpened():
     resized_frame = cv2.resize(annotated_frame, (new_w, new_h), interpolation=cv2.INTER_AREA)
 
     # Permite redimensionamento da janela se o usuário quiser arrastar
-    cv2.namedWindow("Detecção Dp John", cv2.WINDOW_NORMAL)
+
+    cv2.setNumThreads(0)  # Prevents some backend conflicts
+    cv2.namedWindow("Detecção Dp John", cv2.WINDOW_NORMAL | cv2.WINDOW_GUI_EXPANDED)
     cv2.imshow("Detecção Dp John", resized_frame)
 
     # Pressione 'q' para sair
