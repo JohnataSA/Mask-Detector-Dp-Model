@@ -14,7 +14,7 @@ Resultados:
 
 <img width="1288" height="632" alt="image" src="https://github.com/user-attachments/assets/c65ad36b-ab2f-42b3-8577-cecab7167e07" />
 
-Matrix de confusão:
+Matriz de confusão:
 
 <img width="859" height="631" alt="image" src="https://github.com/user-attachments/assets/96cfeb3a-6e9e-47b7-9440-715c0e1d1f34" />
 
