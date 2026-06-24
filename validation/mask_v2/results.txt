@@ -1,0 +1,4 @@
+mAP50: 0.8856
+Precision: 0.8667
+Recall: 0.8652
+F1-Score: 0.8659
