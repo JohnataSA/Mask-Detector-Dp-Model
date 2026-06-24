@@ -58,9 +58,9 @@ Precision: 0.8667
 Recall: 0.8652
 F1-Score: 0.8659
 
-Após fine tuning, o modelo se comportou da maneira esperado resolvendo consideralvente o problema de detecção de posição incorreta da máscara.
+Após fine tuning, o modelo se comportou da maneira esperada resolvendo consideralvente o problema de detecção de posição incorreta da máscara.
 Antes cerca de apenas 15% dessa classe era detectada, e após a 2 etapa de treino passou a detectar 78% da classe.
-Foi adicionado mais imagens deste case e realizado techica de data argumentation como complemento do resultado final.
+Foi adicionado mais imagens deste case e utilizado técnica de data argumentation como complemento do resultado final.
 
 #######################################################
 #                        THE END                      #
